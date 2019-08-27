@@ -1,2 +1,1 @@
-# TrackFitness
-Hackathon App HHealth
+# hh-gym-attendance
