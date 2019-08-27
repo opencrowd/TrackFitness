@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#wrap {
+    background: #e7e7e7;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#left, #right {
+
+    background: #ccc;
+    padding: 20px;
+}
+
+#sticky {
+  width:100%;
+  padding:20px;
+  padding-bottom:16px;
+  background: #ffbe31;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  text-align:center;
+  position:fixed;    /*Here's what sticks it*/
+  bottom:0;          /*to the bottom of the body*/
+  left:0;
+  z-index: 1;        /*and to the left of the body.*/
+
+  /*EFFECTS*/
+  border-top:1px solid whitesmoke; /*border for accent*/
+}
+
+#padding {
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+
+#balance-div {
+    margin-left: auto;
+   margin-right: auto;
+   max-width: 450px;
+   height: 150px;
+
+   /*display: block;
+   float: none;*/
+   text-align: center;
+   background-color: #C4FB79;
+
+   border: 1px solid white;
+   outline: 3px solid #00483b;
+}
+
+
+.Hedera-Health {
+  width: 248px;
+  height: 27px;
+  padding-bottom: 50px;
+  object-fit: contain;
+  font-family: OpenSans;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: black;
+}
+.Hedera-Health .text-style-1 {
+  font-weight: bold;
+}
